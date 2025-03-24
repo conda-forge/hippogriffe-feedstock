@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: hippogriffe
-  version: "0.1.1"
+  version: "0.1.2"
   python_min: "3.10"
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/hippogriffe-${{ version }}.tar.gz
-  sha256: e602230778a18eeb0d5c52e96fa7080c2b26c98e15599b730c142baafeba3035
+  sha256: c38ac55fd3121a5f6b847236f95539519bc69c4b10fbe15678ad03721f3fa28b
 
 build:
   number: 0
